@@ -1,4 +1,18 @@
-export const posts = [
+interface Post {
+  id: number;
+  author: {
+    avatarUrl: string;
+    name: string;
+    role: string;
+  },
+  content: {
+    type: 'paragraph' | 'link',
+    content: string;
+  }[],
+  publishedAt: Date;
+}
+
+export const posts: Post[] = [
   {
     id: 1,
     author: {

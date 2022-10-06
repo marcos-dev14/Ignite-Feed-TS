@@ -13,21 +13,22 @@ interface Author {
   avatarUrl: string;
 }
 
-interface Content {
-  type: 'paragraph' | 'link',
-  content: string;
-}
-
 interface PostProps {
   author: Author;
   publishedAt: Date;
-  content: Content[];
+  content: {
+    type: 'paragraph' | 'link',
+    content: string;
+  }[]
 }
 
 export function Post({ author, publishedAt, content }: PostProps) {
   const [comments, setComments] = useState([
     'Muito bom!!!'
   ]);
+
+  console.log(content)
+
   const [newCommentText, setNewCommentText] = useState('');
 
   const publishedDateFormatted = format(publishedAt, "d 'de' LLLL 'às' HH:mm'h'", {

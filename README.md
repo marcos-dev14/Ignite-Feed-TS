@@ -9,6 +9,8 @@ Aplicação simples visivelmente, mas perfeito para ver os fundamentos do React 
 Essa aplicação ela é como se fosse uma rede social, onde temos alguns poste e
 podemos adicionar comentários, excluir e até mesmo dar likes nos comentários.
 
+## 
+
 ## Requerimentos
 
 - Para rodar o projeto.
