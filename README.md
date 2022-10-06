@@ -11,8 +11,8 @@ podemos adicionar comentários, excluir e até mesmo dar likes nos comentários.
 
 ## Requerimentos
 
-- Para rodar o projeto, bastar dar o git clone.
-- Rodar o comando yarn ou npm run dev para instalar as dependências do projeto
+- Para rodar o projeto.
+- Basta rodar o comando yarn ou npm run dev para instalar as dependências do projeto
 - Depois basta rodar o comando yarn dev ou npm run dev.
 
 ## Tech Stack
